@@ -9,7 +9,7 @@ const packageInfo = require('../../package.json');
 // Set the base root directory for our files. Make sure to always use the node_modules
 // base path instead of the require call only. This is needed because require.resolve
 // also includes the path set in package.json main keys!
-const baseRootPath = path.join(path.dirname(require.resolve('react-webpack-template')), '..');
+const baseRootPath = path.join(path.dirname(require.resolve('react-starter-kit')), '.');
 
 /**
  * Base generator. Will copy all required files from react-webpack-template
